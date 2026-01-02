@@ -157,38 +157,4 @@ p {
 
 /* MEDIA QUERIES START HERE */
 
- /* TABLET MEDIA QUERY */
-@media (max-width: 768px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container img {
-    width: 100%;
-    height: auto;
-  }
-
-  .container .text {
-    text-align: center;
-  }
-}
- /* MOBILE MEDIA QUERY */
- @media (max-width: 480px) {
-  h1 {
-    font-size: 2rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-  .description {
-    padding: 1rem;
-  }
-  
-  #gallery .col-6 {
-    width: 100%;
-    max-width: 100%;
-    flex: 0 0 100%;
-  }
-}
+ 
