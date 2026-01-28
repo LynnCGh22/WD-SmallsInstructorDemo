@@ -156,23 +156,15 @@ p {
 }
 
 /* MEDIA QUERIES START HERE */
-
- /* TABLET MEDIA QUERY */
 @media (max-width: 768px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .feature-col {
+    padding: 1.5rem;
   }
 
-  .container img {
-    width: 100%;
-    height: auto;
+  .description {
+    padding: 1.5rem;
   }
-
-  .container .text {
-    text-align: center;
-  }
+}
 }
  /* MOBILE MEDIA QUERY */
  /* WRITE YOUR CODE BELOW THIS LINE */
